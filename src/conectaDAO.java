@@ -21,7 +21,7 @@ public class conectaDAO {
         Connection conn = null;
         
         try {
-            String url = "jdbc:mysql://localhost:3306/leiloestdsat?useSSL=false";
+            String url = "jdbc:mysql://localhost:3306/leiloestdsat?useSSL=false&allowPublicKeyRetrieval=true";
             String user = "root";
             String password = "@Gustavo123";
             
